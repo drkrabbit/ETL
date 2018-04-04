@@ -51,7 +51,7 @@ mysql_db_config_export = [
 #####################################
 
 #Build your selection query and pull the data from the database
-
+extractionQuery = 'SELECT * FROM this.table WHERE this.table.column = \'true\'' #Query used to pull data from the database
 
 #Clean/Transform the data as necessary
 
